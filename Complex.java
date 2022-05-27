@@ -59,8 +59,6 @@ public class Program {
 			System.out.println(arr[ index ].toString());
 	}
 	public static void main3(String[] args) {
-		//null is literal in Java;
-		//Complex c1 = null;
 		//c1 => null reference variable / c1 is null object
 		Complex[] arr = new Complex[ 3 ];	//Array of references
 		for( int index = 0; index < arr.length; ++ index )
